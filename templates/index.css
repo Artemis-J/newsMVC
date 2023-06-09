@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: rgb(254, 254, 254);    
+}
+
+#title{
+    color:#0c1828;      
+}
+
+mark {
+    background-color: rgb(227, 230, 176);
+    font-weight: bold;
+}
+.page-link{
+    color: #8e56d2;
+
+}
+.col-md-9 {
+    /* 文章列表部分宽度为70% */
+    width: 80%;
+    float: left;
+}
+
+.col-md-3 {
+    /* 目录部分宽度为30% */
+    width: 20%;
+    float: right;
+}
+
+.title-li {
+    list-style: decimal;
+    margin: 10px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #272110;
+}
+
+a:hover{   
+    color: rgb(85, 152, 203);
+}
+
+.btn-outline-danger:hover {
+    color: #fff;
+}
+
+
+#back-to-top {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#back-to-top:hover {
+    background-color: #555353;
+}
+
+/* calendary bg */
+.flatpickr-calendar {
+    background-color:  rgb(241, 225, 255);    
+}
+
+/* date bg */
+.flatpickr-day {
+    background-color: rgb(249, 249, 230);
+}
+
+/* date selected */
+.flatpickr-day.selected {
+    background-color: #e8c84a;
+    color: #fff;
+}
+
+/* 修改今天日期的样式 */
+.flatpickr-day.today {
+    border: 1px solid #ef7f7f;
+}
+
+/* 修改星期的样式 */
+.flatpickr-weekdays .flatpickr-weekday {
+    color: #8e56d2;
+  }
+  
+.highlighted-date {
+    background-color: yellow;
+    color: black;
+}
